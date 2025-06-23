@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="english">
+
+<head>
+  <title>exported project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta property="twitter:card" content="summary_large_image" />
+
+  <style data-tag="reset-style-sheet">
+    html {
+      line-height: 1.15;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+      border-width: 0;
+      border-style: solid;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    p,
+    li,
+    ul,
+    pre,
+    div,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    figure,
+    blockquote,
+    figcaption {
+      margin: 0;
+      padding: 0;
+    }
+
+    button {
+      background-color: transparent;
+    }
+
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+      font-family: inherit;
+      font-size: 100%;
+      line-height: 1.15;
+      margin: 0;
+    }
+
+    button,
+    select {
+      text-transform: none;
+    }
+
+    button,
+    [type="button"],
+    [type="reset"],
+    [type="submit"] {
+      -webkit-appearance: button;
+      color: inherit;
+    }
+
+    button::-moz-focus-inner,
+    [type="button"]::-moz-focus-inner,
+    [type="reset"]::-moz-focus-inner,
+    [type="submit"]::-moz-focus-inner {
+      border-style: none;
+      padding: 0;
+    }
+
+    button:-moz-focus,
+    [type="button"]:-moz-focus,
+    [type="reset"]:-moz-focus,
+    [type="submit"]:-moz-focus {
+      outline: 1px dotted ButtonText;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: inherit;
+    }
+
+    input {
+      padding: 2px 4px;
+    }
+
+    img {
+      display: block;
+    }
+
+    details {
+      display: block;
+      margin: 0;
+      padding: 0;
+    }
+
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    [data-thq="accordion"] [data-thq="accordion-content"] {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease-in-out;
+      padding: 0;
+    }
+
+    [data-thq="accordion"] details[data-thq="accordion-trigger"][open]+[data-thq="accordion-content"] {
+      max-height: 1000vh;
+    }
+
+    details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {
+      transform: rotate(180deg);
+    }
+
+    html {
+      scroll-behavior: smooth
+    }
+  </style>
+  <style data-tag="default-style-sheet">
+    html {
+      font-family: Inter;
+      font-size: 16px;
+    }
+
+    body {
+      font-weight: 400;
+      font-style: normal;
+      text-decoration: none;
+      text-transform: none;
+      letter-spacing: normal;
+      line-height: 1.15;
+      color: var(--dl-color-theme-neutral-dark);
+      background: var(--dl-color-theme-neutral-light);
+
+      fill: var(--dl-color-theme-neutral-dark);
+    }
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/animate.css@4.1.1/animate.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Racing+Sans+One:wght@400&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Racing+Sans+One:wght@400&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Racing+Sans+One:wght@400&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Racing+Sans+One:wght@400&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Racing+Sans+One:wght@400&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Racing+Sans+One:wght@400&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet" href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css" />
+</head>
+
+<body>
+  <link rel="stylesheet" href="./style.css" />
+  <div>
+    <link href="./index.css" rel="stylesheet" />
+
+    <button id="downloadAllBtn">Download All Cards</button>
+
+    <script src="./alldata.js"></script>
+    <div id="cards" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+
+    <script>
+      // Add more players if needed
+
+      const container = document.getElementById('cards');
+      container.classList.add('cup_container');
+      players.forEach((player) => {
+        const card = document.createElement('div');
+        const total = player.batting_skill + player.bowling_skill + player.fielding_skill;
+        card.classList.add('card-wrapper');
+        const p_id = player.image.split('/')[2].split('.')[0];
+        card.innerHTML = `
+      <div class="cup-cup" id="${p_id}">
+        <img src="${player.image}" alt="image116" class="cup-image1" />
+        <img src="public/external/vector17-bbi.svg" alt="Vector17" class="cup-vector1" width="100%" />
+        <div class="cup-frame9">
+          <div class="cup-frame4">
+            <div class="cup-frame3">
+              <span class="cup-text10">Age</span>
+              <span class="cup-text11">${player.age}</span>
+            </div>
+            <div class="cup-frame1">
+              <span class="cup-text12">Skill</span>
+              <span class="cup-text13">${player.skill}</span>
+            </div>
+            <div class="cup-frame2">
+              <span class="cup-text14">Total</span>
+              <span class="cup-text15">${total}/30</span>
+            </div>
+          </div>
+          <img src="public/external/line1120-qth.svg" alt="Line1120" class="cup-line1" />
+          <div class="cup-frame8">
+            <div class="cup-frame5">
+              <div class="cup-frame10">
+                <div class="cup-group1">
+                  <img src="public/external/vector125-oqd3.svg" alt="Vector125" class="cup-vector2" />
+                  <img src="public/external/vector126-dzya.svg" alt="Vector126" class="cup-vector3" />
+                </div>
+              </div>
+              <span class="cup-text16">${player.batting_skill}/10</span>
+            </div>
+            <div class="cup-frame6">
+              <div class="cup-frame11">
+                <div class="cup-group2">
+                  <img src="public/external/vector131-cszh.svg" alt="Vector131" class="cup-vector4" />
+                </div>
+              </div>
+              <span class="cup-text17">${player.bowling_skill}/10</span>
+            </div>
+            <div class="cup-frame7">
+              <div class="cup-frame12">
+                <div class="cup-group3">
+                  <img src="public/external/vector136-j7tc.svg" alt="Vector136" class="cup-vector5" />
+                  <img src="public/external/vector137-0po.svg" alt="Vector137" class="cup-vector6" />
+                  <img src="public/external/vector138-xtdd.svg" alt="Vector138" class="cup-vector7" />
+                  <img src="public/external/vector139-8yv.svg" alt="Vector139" class="cup-vector8" />
+                </div>
+              </div>
+              <span class="cup-text18">${player.fielding_skill}/10</span>
+            </div>
+          </div>
+        </div>
+        <div class="cup-text19 justify-center items-center flex flex-col">
+          <div>${player.first_name}</div>
+          <div>${player.last_name}</div>
+        </div>
+      </div>
+    
+    <button class="download-image-btn" style="position:relative; top:10px;color:red; padding:4px 8px; font-size:12px;" data-id="${p_id}">Save</button>
+`;
+
+        container.appendChild(card);
+      })
+    </script>
+
+    <script>
+      document.addEventListener("click", function (e) {
+        if (e.target.classList.contains("download-image-btn")) {
+          const p_id = e.target.dataset.id; // ✅ get p_id from data-id attribute
+          const card = document.getElementById(p_id); // ✅ find card using ID
+
+          if (!card) {
+            console.error("Card not found for ID:", p_id);
+            return;
+          }
+
+          html2canvas(card).then((canvas) => {
+            const link = document.createElement("a");
+            link.download = `${p_id}.jpg`;
+            link.href = canvas.toDataURL("image/png");
+            link.click();
+          });
+        }
+      });
+
+
+      document.getElementById("downloadAllBtn").addEventListener("click", async function () {
+        const zip = new JSZip();
+        const cards = document.querySelectorAll(".cup-cup");
+        const folder = zip.folder("Player-Cards");
+
+        for (let i = 0; i < cards.length; i++) {
+          const card = cards[i];
+          const p_id = card.id || `card-${i}`;
+
+          try {
+            const canvas = await html2canvas(card);
+            const dataUrl = canvas.toDataURL("image/jpeg");
+            const base64 = dataUrl.replace(/^data:image\/(png|jpeg);base64,/, "");
+            folder.file(`${p_id}.jpg`, base64, { base64: true });
+          } catch (error) {
+            console.error(`Failed to process ${p_id}`, error);
+          }
+        }
+
+        // Generate zip and trigger download
+        zip.generateAsync({ type: "blob" }).then(function (content) {
+          const link = document.createElement("a");
+          link.href = URL.createObjectURL(content);
+          link.download = "All-Player-Cards.zip";
+          link.click();
+        });
+      });
+
+      // document.getElementById("downloadAllBtn").addEventListener("click", function () {
+      //   const cards = document.querySelectorAll(".cup-cup"); // get all cards
+      //   cards.forEach((card, index) => {
+      //     const p_id = card.id || `card-${index}`; // use card id or fallback
+
+      //     html2canvas(card).then((canvas) => {
+      //       const link = document.createElement("a");
+      //       link.download = `${p_id}.jpg`;
+      //       link.href = canvas.toDataURL("image/png");
+      //       link.click();
+      //     });
+      //   });
+      // });
+
+
+    </script>
+  </div>
+</body>
+
+</html>

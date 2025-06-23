@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Player Card</title>
+  <style>
+    body {
+      background-color: #e6f0fa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+    }
+
+    .cup-cup {
+      position: relative;
+      width: 400px;
+      height: 600px;
+      background-color: #fff;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .cup-image1 {
+      position: absolute;
+      top: 40px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 300px;
+      height: auto;
+      object-fit: contain;
+      z-index: 1;
+    }
+
+    .cup-vector1 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 0;
+    }
+
+    .cup-frame9 {
+      position: absolute;
+      bottom: 140px;
+      width: 100%;
+      padding: 0 20px;
+      z-index: 2;
+    }
+
+    .cup-frame4,
+    .cup-frame8 {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 15px;
+    }
+
+    .cup-frame3,
+    .cup-frame1,
+    .cup-frame2,
+    .cup-frame5,
+    .cup-frame6,
+    .cup-frame7 {
+      flex: 1;
+      text-align: center;
+    }
+
+    .cup-text10,
+    .cup-text12,
+    .cup-text14 {
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .cup-text11,
+    .cup-text13,
+    .cup-text15,
+    .cup-text16,
+    .cup-text17,
+    .cup-text18 {
+      font-size: 16px;
+      color: #333;
+    }
+
+    .cup-text19 {
+      position: absolute;
+      bottom: 30px;
+      width: 100%;
+      font-size: 20px;
+      font-weight: 600;
+      color: #222;
+      text-align: center;
+      z-index: 2;
+    }
+
+    .cup-line1,
+    .cup-vector2,
+    .cup-vector3,
+    .cup-vector4,
+    .cup-vector5,
+    .cup-vector6,
+    .cup-vector7,
+    .cup-vector8 {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="cup-cup">
+    <img src="player-image.png" alt="Player Image" class="cup-image1" />
+    <img src="public/external/vector17-bbi.svg" alt="Vector17" class="cup-vector1" />
+
+    <div class="cup-frame9">
+      <div class="cup-frame4">
+        <div class="cup-frame3">
+          <span class="cup-text10">Age</span><br />
+          <span class="cup-text11">22</span>
+        </div>
+        <div class="cup-frame1">
+          <span class="cup-text12">Skill</span><br />
+          <span class="cup-text13">All-rounder</span>
+        </div>
+        <div class="cup-frame2">
+          <span class="cup-text14">Total</span><br />
+          <span class="cup-text15">24/30</span>
+        </div>
+      </div>
+
+      <img src="public/external/line1120-qth.svg" alt="Line" class="cup-line1" />
+
+      <div class="cup-frame8">
+        <div class="cup-frame5">
+          <div class="cup-frame10">
+            <div class="cup-group1">
+              <img src="public/external/vector125-oqd3.svg" alt="Icon1" class="cup-vector2" />
+              <img src="public/external/vector126-dzya.svg" alt="Icon2" class="cup-vector3" />
+            </div>
+          </div>
+          <span class="cup-text16">8/10</span>
+        </div>
+
+        <div class="cup-frame6">
+          <div class="cup-frame11">
+            <div class="cup-group2">
+              <img src="public/external/vector131-cszh.svg" alt="Icon3" class="cup-vector4" />
+            </div>
+          </div>
+          <span class="cup-text17">9/10</span>
+        </div>
+
+        <div class="cup-frame7">
+          <div class="cup-frame12">
+            <div class="cup-group3">
+              <img src="public/external/vector136-j7tc.svg" alt="Icon4" class="cup-vector5" />
+              <img src="public/external/vector137-0po.svg" alt="Icon5" class="cup-vector6" />
+              <img src="public/external/vector138-xtdd.svg" alt="Icon6" class="cup-vector7" />
+              <img src="public/external/vector139-8yv.svg" alt="Icon7" class="cup-vector8" />
+            </div>
+          </div>
+          <span class="cup-text18">7/10</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="cup-text19">
+      <div>Jash</div>
+      <div>Patel</div>
+    </div>
+  </div>
+
+</body>
+
+</html>

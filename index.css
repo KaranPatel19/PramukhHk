@@ -1,0 +1,430 @@
+.cup_container {
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.cup-cup {
+  width: 390px;
+  height: 844px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.800000011920929) 0%,
+    rgba(0, 0, 0, 0.800000011920929) 100%
+  );
+  align-items: center;
+  flex-shrink: 0;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/external/tq_hvsboax3mg-a0zc-900h.png");
+}
+.hidden {
+  display: none;
+}
+.cup-image1 {
+  top: 41px;
+  left: 11px;
+  width: 368px;
+  height: 354px;
+  position: absolute;
+  border-radius: 15px;
+  border: none; /* remove border */
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.4), 0 8px 20px rgba(0, 0, 0, 0.7);
+  filter: brightness(0.95) contrast(1.05);
+  background-color: #111; /* match card bg */
+  object-fit: cover;
+}
+
+.cup-vector1 {
+  top: 474px;
+  left: -10px;
+  width: 401px;
+  height: 165px;
+  position: absolute;
+  /* box-shadow: 0px 6px 16px 0px rgba(255, 216, 0, 0.699999988079071) ; */
+  box-sizing: content-box;
+}
+
+.cup-frame9 {
+  gap: 20px;
+  top: 662px;
+  left: 22px;
+  width: 346px;
+  display: flex;
+  position: absolute;
+  align-items: flex-end;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+
+.cup-frame4 {
+  gap: 15px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+
+.cup-frame3 {
+  gap: 6px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+
+.cup-text10 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto Condensed;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.cup-text11 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Racing Sans One;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.cup-frame1 {
+  gap: 6px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+
+.cup-text12 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto Condensed;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.cup-text13 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Racing Sans One;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.cup-frame2 {
+  gap: 6px;
+  width: 44px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+
+.cup-text14 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto Condensed;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.cup-text15 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 22px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Racing Sans One;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.cup-line1 {
+  width: 346px;
+  height: 1px;
+  align-self: stretch;
+}
+
+.cup-frame8 {
+  gap: 14px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+
+.cup-frame5 {
+  gap: 6px;
+  display: flex;
+  align-items: center;
+}
+
+.cup-frame10 {
+  width: 34px;
+  height: 34px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.cup-group1 {
+  top: 0.00027976586716249585px;
+  left: 4.0553669929504395px;
+  width: 25.889419555664062px;
+  height: 34.0001106262207px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+
+.cup-vector2 {
+  top: 0px;
+  left: 0px;
+  width: 26px;
+  height: 34px;
+  position: absolute;
+}
+
+.cup-vector3 {
+  top: 8.247370719909668px;
+  left: 0.5843299627304077px;
+  width: 24px;
+  height: 17px;
+  position: absolute;
+}
+
+.cup-text16 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Racing Sans One;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.cup-frame6 {
+  gap: 6px;
+  display: flex;
+  align-items: center;
+}
+
+.cup-frame11 {
+  width: 34px;
+  height: 34px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.cup-group2 {
+  top: 1.1345024108886719px;
+  left: 1.1342490911483765px;
+  width: 31.732563018798828px;
+  height: 31.73230743408203px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+
+.cup-vector4 {
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+}
+
+.cup-text17 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Racing Sans One;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.cup-frame7 {
+  gap: 6px;
+  display: flex;
+  align-items: center;
+}
+
+.cup-frame12 {
+  width: 34px;
+  height: 34px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.cup-group3 {
+  top: 2.209182024002075px;
+  left: 0px;
+  width: 34px;
+  height: 29.58028793334961px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+
+.cup-vector5 {
+  top: 1.7963746786117554px;
+  left: 1.59375px;
+  width: 30px;
+  height: 17px;
+  position: absolute;
+}
+
+.cup-vector6 {
+  top: 3.3868186473846436px;
+  left: 2.1445841789245605px;
+  width: 26px;
+  height: 23px;
+  position: absolute;
+}
+
+.cup-vector7 {
+  top: -7.450580596923828e-8px;
+  left: 18.224327087402344px;
+  width: 8px;
+  height: 7px;
+  position: absolute;
+}
+
+.cup-vector8 {
+  top: 27.45528793334961px;
+  left: 0px;
+  width: 34px;
+  height: 2px;
+  position: absolute;
+}
+
+.cup-text18 {
+  color: rgba(255, 255, 255, 1);
+  width: 44px;
+  height: auto;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Racing Sans One;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.cup-text19 {
+  top: 465px;
+  /* left: 58px; */
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 80px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Bebas Neue;
+  font-weight: 400;
+  line-height: 68px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.download-image-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #f9d423; /* Yellow shade */
+  color: #000;
+  font-weight: bold;
+  border: none;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  height: 25px;
+}
+
+.download-image-btn:hover {
+  background: #c5b0aa; /* Orange-red shade */
+  color: white;
+  transform: scale(1.05);
+}
+
+#downloadAllBtn {
+  background-color: #4caf50; /* green color */
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#downloadAllBtn:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+#downloadAllBtn:active {
+  transform: scale(0.97);
+}
