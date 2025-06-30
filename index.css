@@ -24,6 +24,8 @@
   background-size: cover;
   justify-content: center;
   background-image: url("public/external/tq_hvsboax3mg-a0zc-900h.png");
+  box-sizing: border-box;
+  transform-origin: top left;
 }
 .hidden {
   display: none;

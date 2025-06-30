@@ -283,10 +283,24 @@
             return;
           }
 
-          html2canvas(card).then((canvas) => {
+          // Force the card to its exact dimensions before capturing
+            const originalWidth = card.style.width;
+            const originalHeight = card.style.height;
+            card.style.width = '390px';
+            card.style.height = '844px';
+
+            html2canvas(card, {
+              scale: 1,
+              useCORS: true,
+              allowTaint: true,
+              backgroundColor: null
+            }).then((canvas) => {
+              // Restore original dimensions
+              card.style.width = originalWidth;
+              card.style.height = originalHeight;
             const link = document.createElement("a");
             link.download = `${p_id}.jpg`;
-            link.href = canvas.toDataURL("image/png");
+            link.href = canvas.toDataURL("image/jpeg", 0.9);
             link.click();
           });
         }
@@ -303,7 +317,22 @@
           const p_id = card.id || `card-${i}`;
 
           try {
-            const canvas = await html2canvas(card);
+            // Force the card to its exact dimensions before capturing
+              const originalWidth = card.style.width;
+              const originalHeight = card.style.height;
+              card.style.width = '390px';
+              card.style.height = '844px';
+
+              const canvas = await html2canvas(card, {
+                scale: 1,
+                useCORS: true,
+                allowTaint: true,
+                backgroundColor: null
+              });
+
+              // Restore original dimensions
+              card.style.width = originalWidth;
+              card.style.height = originalHeight;
             const dataUrl = canvas.toDataURL("image/jpeg");
             const base64 = dataUrl.replace(/^data:image\/(png|jpeg);base64,/, "");
             folder.file(`${p_id}.jpg`, base64, { base64: true });
